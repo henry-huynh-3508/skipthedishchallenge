@@ -2,8 +2,7 @@ import React from "react";
 import LoginForm from "./LoginForm";
 import { createShallow } from "@material-ui/core/test-utils";
 import { TextField } from "@material-ui/core";
-
-describe("Counter Testing", () => {
+describe("LoginForm Unit Testing", () => {
   let shallow;
 
   beforeAll(() => {
