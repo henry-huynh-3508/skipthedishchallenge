@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Skipthedish coding challenge
 
-## Available Scripts
+This is a simple project that builds a login form.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+What things you need to install the software and how to install them
 
-### `npm test`
+```
+https://nodejs.org/en/
+```
+### How to install dependencies
+```
+Start at the root directory of the project
+npm install
+```
+### How to start webserver
+```
+Start at the root directory of the project
+npm start
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Break down into frontend tests
 
-### `npm run build`
+You can follow these instructions to test frontend
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Start at the root directory of the project
+npm test
+```
+* [React](https://reactjs.org/) - The frontend framework used
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Henry Huynh** - *Initial work* 
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project is licensed under the MIT License - Feel free to clone and run on your own.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Interview questions
+* Did you have time to complete the coding test?
+Unit tests are covered. 
+* What would you add to your solution if you had more time? 
+ Integration tests, behavior tests for some of the UI components.
+* What's your favourite programming language? Why? 
+ Typescript. Well defined behaviors, more structures , better for collaboration and productivity.
+* List a few of your preferred JavaScript libraries and/or frameworks.
+ Materiul UI for UI building, axios,applo-grapql for server request,... Vue framework because it is much easier to learn. Angular is quite difficult to setup and very enterprisy but it comes with well defined structure project.  
+* Please describe yourself using JSON.
+```javascript
+{ 
+  "name": "Henry" ,
+  "age":27,
+  "professions:":"TechLead | Full Stack Developer | DevOps Engineer | Data Analyst",
+  "interest": "I'm interested in designing, building and operating software applications from end to end.",
+  "workexperience":'I graduated with a Bachelor of Science in Computer Science at Macewan University. Currently, I’m the Techlead of Revere Technologies Company.I’m open to work on excellent projects with wonderful people.',
+  "website":"https://hhuynhtechlead.com/"
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
