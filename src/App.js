@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import LoginForm from "./User/LoginForm";
 
 function App() {
   return (
     <div className="App">
-      <p /> "Just starting"
+      <LoginForm></LoginForm>
     </div>
   );
 }
